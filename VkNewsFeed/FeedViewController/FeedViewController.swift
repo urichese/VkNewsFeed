@@ -13,7 +13,7 @@ class FeedViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemBlue
+        //view.backgroundColor = .systemBlue
         fetcher.getFeed { feedResponse in
             guard let feedResponse = feedResponse else {return}
             feedResponse.items.map { FeedItem in
