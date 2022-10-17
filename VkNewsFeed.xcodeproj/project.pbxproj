@@ -17,6 +17,8 @@
 		CB3563EB28FC6D4300A5F67E /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3563EA28FC6D4300A5F67E /* AuthService.swift */; };
 		CB995CDE28FD26FB00B8B840 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB995CDD28FD26FB00B8B840 /* FeedViewController.swift */; };
 		CB995CE028FD274700B8B840 /* FeedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB995CDF28FD274700B8B840 /* FeedViewController.storyboard */; };
+		CB995CE428FD3EE500B8B840 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB995CE328FD3EE400B8B840 /* NetworkService.swift */; };
+		CB995CE628FD3F6300B8B840 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB995CE528FD3F6300B8B840 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		CB3563EA28FC6D4300A5F67E /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		CB995CDD28FD26FB00B8B840 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		CB995CDF28FD274700B8B840 /* FeedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeedViewController.storyboard; sourceTree = "<group>"; };
+		CB995CE328FD3EE400B8B840 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CB995CE528FD3F6300B8B840 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				CB3563EA28FC6D4300A5F67E /* AuthService.swift */,
+				CB995CE528FD3F6300B8B840 /* API.swift */,
+				CB995CE328FD3EE400B8B840 /* NetworkService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -244,7 +250,9 @@
 				CB3563D528FC6A7800A5F67E /* AppDelegate.swift in Sources */,
 				CB995CDE28FD26FB00B8B840 /* FeedViewController.swift in Sources */,
 				CB3563D728FC6A7800A5F67E /* SceneDelegate.swift in Sources */,
+				CB995CE428FD3EE500B8B840 /* NetworkService.swift in Sources */,
 				CB3563EB28FC6D4300A5F67E /* AuthService.swift in Sources */,
+				CB995CE628FD3F6300B8B840 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
