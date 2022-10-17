@@ -15,6 +15,8 @@
 		CB3563E128FC6A7A00A5F67E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3563DF28FC6A7A00A5F67E /* LaunchScreen.storyboard */; };
 		CB3563E928FC6CC600A5F67E /* AuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3563E828FC6CC600A5F67E /* AuthViewController.storyboard */; };
 		CB3563EB28FC6D4300A5F67E /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3563EA28FC6D4300A5F67E /* AuthService.swift */; };
+		CB995CDE28FD26FB00B8B840 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB995CDD28FD26FB00B8B840 /* FeedViewController.swift */; };
+		CB995CE028FD274700B8B840 /* FeedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB995CDF28FD274700B8B840 /* FeedViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		CB3563E228FC6A7A00A5F67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB3563E828FC6CC600A5F67E /* AuthViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthViewController.storyboard; sourceTree = "<group>"; };
 		CB3563EA28FC6D4300A5F67E /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		CB995CDD28FD26FB00B8B840 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		CB995CDF28FD274700B8B840 /* FeedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeedViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +89,8 @@
 				CB3563D428FC6A7800A5F67E /* AppDelegate.swift */,
 				CB3563EC28FC6D4800A5F67E /* Services */,
 				CB3563D628FC6A7800A5F67E /* SceneDelegate.swift */,
-				CB3563D828FC6A7800A5F67E /* AuthViewController.swift */,
-				CB3563E828FC6CC600A5F67E /* AuthViewController.storyboard */,
+				CB995CE228FD27BF00B8B840 /* FeedViewController */,
+				CB995CE128FD27AF00B8B840 /* Auth */,
 				CB3563DD28FC6A7A00A5F67E /* Assets.xcassets */,
 				CB3563DF28FC6A7A00A5F67E /* LaunchScreen.storyboard */,
 				CB3563E228FC6A7A00A5F67E /* Info.plist */,
@@ -100,6 +104,24 @@
 				CB3563EA28FC6D4300A5F67E /* AuthService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		CB995CE128FD27AF00B8B840 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				CB3563D828FC6A7800A5F67E /* AuthViewController.swift */,
+				CB3563E828FC6CC600A5F67E /* AuthViewController.storyboard */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		CB995CE228FD27BF00B8B840 /* FeedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB995CDD28FD26FB00B8B840 /* FeedViewController.swift */,
+				CB995CDF28FD274700B8B840 /* FeedViewController.storyboard */,
+			);
+			path = FeedViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +187,7 @@
 				CB3563E128FC6A7A00A5F67E /* LaunchScreen.storyboard in Resources */,
 				CB3563E928FC6CC600A5F67E /* AuthViewController.storyboard in Resources */,
 				CB3563DE28FC6A7A00A5F67E /* Assets.xcassets in Resources */,
+				CB995CE028FD274700B8B840 /* FeedViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +242,7 @@
 			files = (
 				CB3563D928FC6A7800A5F67E /* AuthViewController.swift in Sources */,
 				CB3563D528FC6A7800A5F67E /* AppDelegate.swift in Sources */,
+				CB995CDE28FD26FB00B8B840 /* FeedViewController.swift in Sources */,
 				CB3563D728FC6A7800A5F67E /* SceneDelegate.swift in Sources */,
 				CB3563EB28FC6D4300A5F67E /* AuthService.swift in Sources */,
 			);
