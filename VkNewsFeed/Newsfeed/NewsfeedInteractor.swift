@@ -28,8 +28,8 @@ class NewsfeedInteractor: NewsfeedBusinessLogic {
 
     case .getNewsfeed:
         fetcher.getFeed { [weak self] (feedResponse) in
-            feedResponse?.groups.map({ group in
-                print("\(group)\n\n")
+            feedResponse?.items.map({ item in
+                print("\(item.attachments)\n\n")
             })
             
             guard let feedResponse = feedResponse else { return }
