@@ -127,9 +127,9 @@
                 <outlet property="dateLabel" destination="euc-Wv-1Ld" id="2qh-2r-exW"/>
                 <outlet property="iconImageView" destination="4mg-Y1-xc3" id="vZV-85-AUi"/>
                 <outlet property="likesLabel" destination="FoZ-hG-ln1" id="eAN-Gv-IdA"/>
-                <outlet property="nameLabel" destination="Col-bA-ts1" id="vBB-1j-PGn"/>
-                <outlet property="postLabel" destination="dVQ-Zp-uSc" id="m59-fs-shi"/>
-                <outlet property="sharesLabel" destination="2Yi-il-NXI" id="ZPF-G0-K46"/>
+                <outlet property="nameLabel" destination="Col-bA-ts1" id="Onb-2O-Uy2"/>
+                <outlet property="postLabel" destination="dVQ-Zp-uSc" id="vcL-KG-hoj"/>
+                <outlet property="sharesLabel" destination="2Yi-il-NXI" id="Isw-WC-XWr"/>
                 <outlet property="viewsLabel" destination="IC0-Eu-LFV" id="OPE-2j-UW5"/>
             </connections>
             <point key="canvasLocation" x="-449.27536231884062" y="52.901785714285715"/>
