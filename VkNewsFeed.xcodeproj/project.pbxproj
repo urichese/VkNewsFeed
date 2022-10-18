@@ -15,8 +15,6 @@
 		CB3563E128FC6A7A00A5F67E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3563DF28FC6A7A00A5F67E /* LaunchScreen.storyboard */; };
 		CB3563E928FC6CC600A5F67E /* AuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3563E828FC6CC600A5F67E /* AuthViewController.storyboard */; };
 		CB3563EB28FC6D4300A5F67E /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3563EA28FC6D4300A5F67E /* AuthService.swift */; };
-		CB995CDE28FD26FB00B8B840 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB995CDD28FD26FB00B8B840 /* FeedViewController.swift */; };
-		CB995CE028FD274700B8B840 /* FeedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB995CDF28FD274700B8B840 /* FeedViewController.storyboard */; };
 		CB995CE428FD3EE500B8B840 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB995CE328FD3EE400B8B840 /* NetworkService.swift */; };
 		CB995CE628FD3F6300B8B840 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB995CE528FD3F6300B8B840 /* API.swift */; };
 		CB995CE928FD514A00B8B840 /* FeedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB995CE828FD514A00B8B840 /* FeedResponse.swift */; };
@@ -45,8 +43,6 @@
 		CB3563E228FC6A7A00A5F67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB3563E828FC6CC600A5F67E /* AuthViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthViewController.storyboard; sourceTree = "<group>"; };
 		CB3563EA28FC6D4300A5F67E /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
-		CB995CDD28FD26FB00B8B840 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
-		CB995CDF28FD274700B8B840 /* FeedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeedViewController.storyboard; sourceTree = "<group>"; };
 		CB995CE328FD3EE400B8B840 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		CB995CE528FD3F6300B8B840 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		CB995CE828FD514A00B8B840 /* FeedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedResponse.swift; sourceTree = "<group>"; };
@@ -115,7 +111,6 @@
 				CB3563D428FC6A7800A5F67E /* AppDelegate.swift */,
 				CB3563EC28FC6D4800A5F67E /* Services */,
 				CB3563D628FC6A7800A5F67E /* SceneDelegate.swift */,
-				CB995CE228FD27BF00B8B840 /* FeedViewController */,
 				CB995CEC28FD66B900B8B840 /* Newsfeed */,
 				CB995CE128FD27AF00B8B840 /* Auth */,
 				CB3563DD28FC6A7A00A5F67E /* Assets.xcassets */,
@@ -144,15 +139,6 @@
 				CB3563E828FC6CC600A5F67E /* AuthViewController.storyboard */,
 			);
 			path = Auth;
-			sourceTree = "<group>";
-		};
-		CB995CE228FD27BF00B8B840 /* FeedViewController */ = {
-			isa = PBXGroup;
-			children = (
-				CB995CDD28FD26FB00B8B840 /* FeedViewController.swift */,
-				CB995CDF28FD274700B8B840 /* FeedViewController.storyboard */,
-			);
-			path = FeedViewController;
 			sourceTree = "<group>";
 		};
 		CB995CE728FD511500B8B840 /* Models */ = {
@@ -252,7 +238,6 @@
 				CB995CFC28FD702E00B8B840 /* NewsfeedViewController.storyboard in Resources */,
 				CB3563DE28FC6A7A00A5F67E /* Assets.xcassets in Resources */,
 				CB995D0228FD8D4B00B8B840 /* NewsfeedCell.xib in Resources */,
-				CB995CE028FD274700B8B840 /* FeedViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +295,6 @@
 				CB3563D928FC6A7800A5F67E /* AuthViewController.swift in Sources */,
 				CB3563D528FC6A7800A5F67E /* AppDelegate.swift in Sources */,
 				CB995CF428FD680B00B8B840 /* NewsfeedPresenter.swift in Sources */,
-				CB995CDE28FD26FB00B8B840 /* FeedViewController.swift in Sources */,
 				CB995CF628FD680B00B8B840 /* NewsfeedRouter.swift in Sources */,
 				CB3563D728FC6A7800A5F67E /* SceneDelegate.swift in Sources */,
 				CB995CE428FD3EE500B8B840 /* NetworkService.swift in Sources */,
