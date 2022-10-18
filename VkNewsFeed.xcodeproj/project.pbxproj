@@ -28,6 +28,7 @@
 		CB995CFC28FD702E00B8B840 /* NewsfeedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB995CFB28FD702E00B8B840 /* NewsfeedViewController.storyboard */; };
 		CB995D0028FD8CF500B8B840 /* NewsfeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB995CFF28FD8CF500B8B840 /* NewsfeedCell.swift */; };
 		CB995D0228FD8D4B00B8B840 /* NewsfeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB995D0128FD8D4B00B8B840 /* NewsfeedCell.xib */; };
+		CB995D0428FEE5FF00B8B840 /* WebImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB995D0328FEE5FF00B8B840 /* WebImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		CB995CFB28FD702E00B8B840 /* NewsfeedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewsfeedViewController.storyboard; sourceTree = "<group>"; };
 		CB995CFF28FD8CF500B8B840 /* NewsfeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsfeedCell.swift; sourceTree = "<group>"; };
 		CB995D0128FD8D4B00B8B840 /* NewsfeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsfeedCell.xib; sourceTree = "<group>"; };
+		CB995D0328FEE5FF00B8B840 /* WebImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				CB3563DD28FC6A7A00A5F67E /* Assets.xcassets */,
 				CB3563DF28FC6A7A00A5F67E /* LaunchScreen.storyboard */,
 				CB3563E228FC6A7A00A5F67E /* Info.plist */,
+				CB995D0528FEE60500B8B840 /* Helpers */,
 			);
 			path = VkNewsFeed;
 			sourceTree = "<group>";
@@ -171,6 +174,14 @@
 				CB995D0128FD8D4B00B8B840 /* NewsfeedCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		CB995D0528FEE60500B8B840 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CB995D0328FEE5FF00B8B840 /* WebImageView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +310,7 @@
 				CB3563D728FC6A7800A5F67E /* SceneDelegate.swift in Sources */,
 				CB995CE428FD3EE500B8B840 /* NetworkService.swift in Sources */,
 				CB995CF728FD680B00B8B840 /* NewsfeedModels.swift in Sources */,
+				CB995D0428FEE5FF00B8B840 /* WebImageView.swift in Sources */,
 				CB995CEB28FD594F00B8B840 /* NetworkDataFetcher.swift in Sources */,
 				CB995CF528FD680B00B8B840 /* NewsfeedWorker.swift in Sources */,
 				CB3563EB28FC6D4300A5F67E /* AuthService.swift in Sources */,
