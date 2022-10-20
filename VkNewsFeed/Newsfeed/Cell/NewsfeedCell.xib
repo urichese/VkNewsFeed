@@ -137,6 +137,7 @@
                 </subviews>
             </tableViewCellContentView>
             <connections>
+                <outlet property="bottomView" destination="BST-NG-ap7" id="ojd-OS-VQt"/>
                 <outlet property="cardView" destination="NBe-Md-mED" id="RRP-Ej-vKn"/>
                 <outlet property="commentsLabel" destination="Vdf-iP-GBn" id="EuZ-mQ-Epc"/>
                 <outlet property="dateLabel" destination="euc-Wv-1Ld" id="2qh-2r-exW"/>
