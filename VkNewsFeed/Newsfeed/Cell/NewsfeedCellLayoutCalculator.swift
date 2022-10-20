@@ -12,14 +12,6 @@ protocol FeedCellLayoutCalculatorProtocol {
     func sizes(postText: String?, photoAttachment: FeedCellPhotoAttachmentViewModel?) -> FeedCellSizes
 }
 
-struct Constants {
-    static let cardInsets = UIEdgeInsets(top: 0, left: 8, bottom: 12, right: 0)
-    static let topViewHeight: CGFloat = 36
-    static let postLabelInsets = UIEdgeInsets(top: 8 + topViewHeight + 8, left: 8, bottom: 8, right: 20) // исправить
-    static let postLabelFonts = UIFont.systemFont(ofSize: 15)
-    static let bottomViewHeight: CGFloat = 44
-}
-
 struct Sizes: FeedCellSizes {
     var bottomViewFrame: CGRect
     var totalHeight: CGFloat
@@ -43,7 +35,7 @@ final class FeedCellLayoutCalculator: FeedCellLayoutCalculatorProtocol {
         
         if let text = postText, !text.isEmpty {
             let width = screenWidth - Constants.postLabelInsets.left - Constants.postLabelInsets.right
-            let height = text.height(width: width, font: Constants.postLabelFonts)
+            let height = text.height(width: width, font: Constants.postLabelFont)
             
             postLabelFrame.size = CGSize(width: width, height: height)
         }

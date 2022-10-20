@@ -31,6 +31,9 @@
 		CB995D0428FEE5FF00B8B840 /* WebImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB995D0328FEE5FF00B8B840 /* WebImageView.swift */; };
 		CB995D0728FFD4C700B8B840 /* NewsfeedCellLayoutCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB995D0628FFD4C700B8B840 /* NewsfeedCellLayoutCalculator.swift */; };
 		CB995D09290024B600B8B840 /* String + Height.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB995D08290024B600B8B840 /* String + Height.swift */; };
+		CB995D0B29013D2D00B8B840 /* NewsfeedCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB995D0A29013D2D00B8B840 /* NewsfeedCodeCell.swift */; };
+		CB995D0D2901539400B8B840 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB995D0C2901539400B8B840 /* Constraints.swift */; };
+		CB995D0F29015A3B00B8B840 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB995D0E29015A3B00B8B840 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +65,9 @@
 		CB995D0328FEE5FF00B8B840 /* WebImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageView.swift; sourceTree = "<group>"; };
 		CB995D0628FFD4C700B8B840 /* NewsfeedCellLayoutCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsfeedCellLayoutCalculator.swift; sourceTree = "<group>"; };
 		CB995D08290024B600B8B840 /* String + Height.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Height.swift"; sourceTree = "<group>"; };
+		CB995D0A29013D2D00B8B840 /* NewsfeedCodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsfeedCodeCell.swift; sourceTree = "<group>"; };
+		CB995D0C2901539400B8B840 /* Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
+		CB995D0E29015A3B00B8B840 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +183,8 @@
 				CB995CFF28FD8CF500B8B840 /* NewsfeedCell.swift */,
 				CB995D0128FD8D4B00B8B840 /* NewsfeedCell.xib */,
 				CB995D0628FFD4C700B8B840 /* NewsfeedCellLayoutCalculator.swift */,
+				CB995D0A29013D2D00B8B840 /* NewsfeedCodeCell.swift */,
+				CB995D0E29015A3B00B8B840 /* Constants.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -186,6 +194,7 @@
 			children = (
 				CB995D0328FEE5FF00B8B840 /* WebImageView.swift */,
 				CB995D08290024B600B8B840 /* String + Height.swift */,
+				CB995D0C2901539400B8B840 /* Constraints.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -318,6 +327,9 @@
 				CB995CE428FD3EE500B8B840 /* NetworkService.swift in Sources */,
 				CB995CF728FD680B00B8B840 /* NewsfeedModels.swift in Sources */,
 				CB995D0728FFD4C700B8B840 /* NewsfeedCellLayoutCalculator.swift in Sources */,
+				CB995D0F29015A3B00B8B840 /* Constants.swift in Sources */,
+				CB995D0B29013D2D00B8B840 /* NewsfeedCodeCell.swift in Sources */,
+				CB995D0D2901539400B8B840 /* Constraints.swift in Sources */,
 				CB995D0428FEE5FF00B8B840 /* WebImageView.swift in Sources */,
 				CB995CEB28FD594F00B8B840 /* NetworkDataFetcher.swift in Sources */,
 				CB995CF528FD680B00B8B840 /* NewsfeedWorker.swift in Sources */,
