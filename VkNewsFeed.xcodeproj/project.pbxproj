@@ -120,15 +120,13 @@
 		CB3563D328FC6A7800A5F67E /* VkNewsFeed */ = {
 			isa = PBXGroup;
 			children = (
-				CB3563D428FC6A7800A5F67E /* AppDelegate.swift */,
+				CB97D5DA291568EF001DAC82 /* AppLifecycle */,
 				CB3563EC28FC6D4800A5F67E /* Services */,
-				CB3563D628FC6A7800A5F67E /* SceneDelegate.swift */,
 				CB995CEC28FD66B900B8B840 /* Newsfeed */,
 				CB995CE128FD27AF00B8B840 /* Auth */,
-				CB3563DD28FC6A7A00A5F67E /* Assets.xcassets */,
-				CB3563DF28FC6A7A00A5F67E /* LaunchScreen.storyboard */,
-				CB3563E228FC6A7A00A5F67E /* Info.plist */,
 				CB995D0528FEE60500B8B840 /* Helpers */,
+				CB3563DD28FC6A7A00A5F67E /* Assets.xcassets */,
+				CB3563E228FC6A7A00A5F67E /* Info.plist */,
 			);
 			path = VkNewsFeed;
 			sourceTree = "<group>";
@@ -143,6 +141,16 @@
 				CB995CEA28FD594F00B8B840 /* NetworkDataFetcher.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		CB97D5DA291568EF001DAC82 /* AppLifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				CB3563DF28FC6A7A00A5F67E /* LaunchScreen.storyboard */,
+				CB3563D628FC6A7800A5F67E /* SceneDelegate.swift */,
+				CB3563D428FC6A7800A5F67E /* AppDelegate.swift */,
+			);
+			path = AppLifecycle;
 			sourceTree = "<group>";
 		};
 		CB995CE128FD27AF00B8B840 /* Auth */ = {

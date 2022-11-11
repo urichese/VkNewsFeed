@@ -5,7 +5,6 @@
 //  Created by urichese on 17.10.2022.
 //
 
-import Foundation
 import UIKit
 
 protocol FeedCellViewModel {
@@ -17,7 +16,7 @@ protocol FeedCellViewModel {
     var comments: String? { get }
     var shares: String? { get }
     var views: String? { get }
-    var photoAttachment: FeedCellPhotoAttachmentViewModel? {get}
+    var photoAttachment: FeedCellPhotoAttachmentViewModel? { get }
     var sizes: FeedCellSizes { get }
 }
 
@@ -26,6 +25,7 @@ protocol FeedCellSizes {
     var attachmentFrame: CGRect { get }
     var bottomViewFrame: CGRect { get }
     var totalHeight: CGFloat { get }
+    var moreTextButtonFrame: CGRect { get }
 }
 
 protocol FeedCellPhotoAttachmentViewModel {
